@@ -1,8 +1,15 @@
 .cardjob {
   width: 70px;
   height: auto;
+  margin: 0 1rem 0 0;
 }
-
+#amazonlogin {
+  border-radius: 0px;
+  border: var(--darkblue) 0px solid;
+  height: 70%;
+  width: 80%;
+  margin: 0% 0% 0% 10%;
+}
 .jobs {
   width: 100%;
   padding-bottom: 70px;
@@ -34,6 +41,7 @@
   padding: 1rem;
   background: white;
 }
+
 #whitereal {
   color: white;
 }
@@ -46,6 +54,7 @@
 }
 .catref {
   color: var(--primary-color);
+  width: 90%;
 }
 #catimg:hover {
   cursor: pointer;
@@ -60,7 +69,6 @@
   border: lightgray 0.5px solid;
   box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
   background: rgb(0, 0, 0, 0.1);
-  margin-top: 1rem;
 }
 .catbtn:hover {
   transition: all 0.5s linear;
