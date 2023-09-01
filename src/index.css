@@ -1,5 +1,6 @@
 :root {
   --primary-color: #4282b4;
+  --darkblue: #020820;
   --primary-dark: #2e5b7e;
   --secondary-color: #ff7900;
   --secondary-dark: #ffa400;
@@ -10,37 +11,36 @@
   font-weight: 300;
   font-style: normal;
   src: url('./CerebriSans/CerebriSans-Light.woff2') format('woff2');
- }
- 
- @font-face {
+}
+
+@font-face {
   font-family: 'Cerebri Sans';
   font-weight: normal;
   font-style: normal;
   src: url('./CerebriSans/CerebriSans-Regular.woff2') format('woff2');
- }
- 
- @font-face {
+}
+
+@font-face {
   font-family: 'Cerebri Sans';
   font-weight: 600;
   font-style: normal;
   src: url('./CerebriSans/CerebriSans-SemiBold.woff2') format('woff2');
- }
- 
- @font-face {
+}
+
+@font-face {
   font-family: 'Cerebri Sans';
   font-weight: 700;
   font-style: normal;
   src: url('./CerebriSans/CerebriSans-Bold.woff2') format('woff2');
- }
- 
- @font-face {
+}
+
+@font-face {
   font-family: 'Cerebri Sans';
   font-weight: 800;
   font-style: normal;
   src: url('./CerebriSans/CerebriSans-ExtraBold.woff2') format('woff2');
- }
+}
 
- 
 * {
   box-sizing: border-box;
   margin: 0;
@@ -50,7 +50,7 @@
 
 body {
   margin: 0;
-  font-family:  'Cerebri Sans', Arial, Helvetica, sans-serif;
+  font-family: 'Cerebri Sans', Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 0.9rem;
@@ -67,6 +67,16 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.caritem {
+  width: 6vw;
+}
+.slider {
+  top: -10vh;
+  opacity: 0.6;
+  width: 80vw;
+  margin: 0 auto;
 }
 
 .button {

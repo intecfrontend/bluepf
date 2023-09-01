@@ -1,5 +1,7 @@
 import React from 'react'
 import './Hero.css'
+import SimpleSlider from "./carousel";
+
 
 const Hero = () => {
     return (
@@ -8,8 +10,13 @@ const Hero = () => {
                 <p>Call me</p>
                 <p>0499 388 227</p>
                 <p>Web Development</p>
-                <button href='/' className='button'>Download CV</button>
+                <a href='./CV.BenLan3L.pdf' download>
+                    <button className='button'>Download CV</button>
+                </a>
+
             </div>
+            <SimpleSlider />
+
         </div>
     )
 }

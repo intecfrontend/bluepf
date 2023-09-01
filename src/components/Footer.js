@@ -23,7 +23,7 @@ const Footer = () => {
                         <Link to="testimonials" spy={true} smooth={true} offset={-160} duration={500} onClick={closeMenu}>Testimonials</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="demo" spy={true} smooth={true} offset={-160} duration={500} onClick={closeMenu}>Demo</Link>
+                        <Link to="Contact" spy={true} smooth={true} offset={-160} duration={500} onClick={closeMenu}>Contact</Link>
                     </li>
                 </ul>
                 <div className='bottom'>

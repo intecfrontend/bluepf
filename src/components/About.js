@@ -13,9 +13,7 @@ const About = () => {
         <div className='about' id='about'>
             <div className='container'>
                 <img id="classimg" src={classmates} alt="" />
-                <div className='col-2'  data-aos="fade-down"
-
-                >
+                <div className='col-2' data-aos="fade-down">
                     <h2>About</h2>
                     <span className='line'></span>
                     <p>Over the mast four years, I was a Code Instructor at intec Brussel
@@ -29,8 +27,9 @@ const About = () => {
                         Before I was a graphic designer for over 25 years, I bring a multilingual aspect, fluently speaking/writing four languages (NL-FR-EN-ES (DE) ). As I find more joy in coding I changed my carreer in 2017 to become a full stack developer.
 
                     </p>
-
-                    <button className='button'>Download reference letter previous employer</button>
+                    <a href='topreferentie.pdf' download>
+                        <button className='button'>Download reference letter previous employer</button>
+                    </a>
                 </div>
             </div>
         </div>
