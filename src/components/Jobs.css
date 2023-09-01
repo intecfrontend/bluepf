@@ -1,6 +1,11 @@
+.cardjob {
+  width: 70px;
+  height: auto;
+}
+
 .jobs {
   width: 100%;
-  padding-bottom: 0px;
+  padding-bottom: 70px;
   background: var(--darkblue);
 }
 
@@ -28,14 +33,41 @@
   box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
   padding: 1rem;
   background: white;
-
 }
-#whitereal{color: white}
+#whitereal {
+  color: white;
+}
 .jobs img {
   border-radius: 50px;
+  border: var(--darkblue) 0.5px solid;
+  height: 90px;
+  width: 90px;
   margin-top: -2rem;
 }
-
+.catref {
+  color: var(--primary-color);
+}
+#catimg:hover {
+  cursor: pointer;
+}
+.catref:hover {
+  text-decoration: underline;
+  color: var(--primary-dark);
+}
+.catbtn {
+  width: 100%;
+  border-radius: 10px;
+  border: lightgray 0.5px solid;
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+  background: rgb(0, 0, 0, 0.1);
+  margin-top: 1rem;
+}
+.catbtn:hover {
+  transition: all 0.5s linear;
+  border: lightgray 0.5px solid;
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.1);
+  background: rgb(0, 0, 0, 0);
+}
 .jobs .card p {
   color: #787878;
   font-size: 1.1rem;

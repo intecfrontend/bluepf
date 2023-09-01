@@ -31,6 +31,9 @@
 .testimonials img {
   border-radius: 50px;
   margin-top: -2rem;
+  border: 0.5px solid lightgray;
+  height: 90px;
+  width: 90px;
 }
 
 .testimonials .card p {
