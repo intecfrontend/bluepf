@@ -1,13 +1,39 @@
+.absol {
+  position: absolute !important;
+  
+  top: 530px;
+  width: 365px;
+}
+.relat {
+  position: 'relative';
+}
+
 .cardjob {
   width: 70px;
   height: auto;
   margin: 0 1rem 0 0;
 }
 #amazonlogin {
+  transition: transform 1s ease, margin-top 1s ease;
+  border-radius: 0px;
+  height: auto;
+  width: 80%;
+  margin: 0% 0% 0% 10%;
+}
+#larapost {
+  transition: transform 1s ease, margin-top 1s ease;
+  border-radius: 0px;
+  height: auto;
+  width: 80%;
+  margin: 0% 0% 0% 10%;
+}
+
+#amazonloginmodal {
+  transition: transform 1s ease, margin-top 1s ease;
   border-radius: 0px;
   border: var(--darkblue) 0px solid;
   height: 70%;
-  width: 80%;
+  width: 20%;
   margin: 0% 0% 0% 10%;
 }
 .jobs {
@@ -40,6 +66,7 @@
   box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
   padding: 1rem;
   background: white;
+  height: 70vh;
 }
 
 #whitereal {
@@ -55,12 +82,24 @@
 .catref {
   color: var(--primary-color);
   width: 90%;
+  top: 67vh;
+  z-index: 800;
+}
+
+.cattext {
+  color: var(--primary-color);
+  width: 90%;
+  top: 67vh;
+  z-index: 800;
 }
 #catimg:hover {
   cursor: pointer;
 }
-.catref:hover {
+.cattext:hover {
   text-decoration: underline;
+  color: var(--primary-dark);
+}
+.catref:hover {
   color: var(--primary-dark);
 }
 .catbtn {
@@ -71,7 +110,7 @@
   background: rgb(0, 0, 0, 0.1);
 }
 .catbtn:hover {
-  transition: all 0.5s linear;
+  transition: all 0.5s ease;
 
   box-shadow: 0 3px 10px rgb(0, 0, 0, 0.1);
   background: var(--primary-dark);
@@ -87,7 +126,9 @@
   font-size: 1rem;
   font-weight: 700;
 }
-
+.pushmedown {
+  margin-top: 4vh;
+}
 @media screen and (max-width: 940px) {
   .jobs .container {
     width: 100%;
@@ -103,6 +144,6 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end !important;
-    background: lime !important
+    background: lime !important;
   }
 }

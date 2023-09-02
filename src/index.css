@@ -6,6 +6,7 @@
   --secondary-dark: #ffa400;
   --overlay: rgba(0, 0, 0, 0.7);
 }
+
 @font-face {
   font-family: 'Cerebri Sans';
   font-weight: 300;
@@ -13,12 +14,7 @@
   src: url('./CerebriSans/CerebriSans-Light.woff2') format('woff2');
 }
 
-@font-face {
-  font-family: 'Cerebri Sans';
-  font-weight: normal;
-  font-style: normal;
-  src: url('./CerebriSans/CerebriSans-Regular.woff2') format('woff2');
-}
+/* Add font-face definitions for font weights 400 and 500 here */
 
 @font-face {
   font-family: 'Cerebri Sans';
@@ -34,12 +30,12 @@
   src: url('./CerebriSans/CerebriSans-Bold.woff2') format('woff2');
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Cerebri Sans';
   font-weight: 800;
   font-style: normal;
-  src: url('./CerebriSans/CerebriSans-ExtraBold.woff2') format('woff2');
-}
+  src: url('./CerebriSans/CerebriSans-Extrsolold.woff2') format('woff2');
+} */
 
 * {
   box-sizing: border-box;
@@ -53,12 +49,11 @@ body {
   font-family: 'Cerebri Sans', Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 0.9rem;
+  font-size: 1rem; /* Updated font size */
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 ul {
@@ -72,6 +67,7 @@ a {
 .caritem {
   width: 6vw;
 }
+
 .slider {
   top: -10vh;
   opacity: 0.6;
@@ -88,7 +84,6 @@ a {
   border: 1px solid var(--primary-color);
   border-radius: 40px;
   cursor: pointer;
-  color: white !important;
 }
 
 .button:hover {

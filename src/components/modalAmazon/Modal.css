@@ -11,10 +11,12 @@
 }
 
 .modal {
+  position: relative;
   border-radius: 5px;
   padding: 2rem;
-  background-color: pink;
-  width: 80vw;
+  background-color:rgba(255, 255, 255, 0.9);
+  width: 70vw;
+  height: 40vw;
 }
 
 .btn-submit {
@@ -22,7 +24,10 @@
 }
 
 .btn-cancel {
-  background-color: #d9534f;
+  background-color: orange;
+  position: absolute;
+  top:35vw;
+  left:61vw;
 }
 
 .close {
