@@ -15,10 +15,8 @@ import { Modal } from "./modalAmazon/Modal";
 
 
 const Jobs = () => {
-
     const [modalOpen, setModalOpen] = useState(false);
     const [message, setMessage] = useState("");
-
     const handleButtonClick = (value) => {
         setModalOpen(false);
     };
@@ -74,15 +72,16 @@ const Jobs = () => {
                         </span>
                     </div>
                     <div className='card relat'>
-                        <div className='absol'>
-                            <button className="catbtn btn btn-open" onClick={() => setModalOpen(true)}>
-                                More info
-                            </button>
-                        </div>
+
                         <img className="cardjob" src={laraL} alt='laraL' />
 
                         <div className="pushmedown">
                             <img className=" hover-element cardfill" id="larapost" src={posts} alt='reduxL' />
+                        </div>
+                        <div className='absol'>
+                            <button className="catbtn btn btn-open" onClick={() => setModalOpen(true)}>
+                                More info
+                            </button>
                         </div>
                     </div>
                 </div>
