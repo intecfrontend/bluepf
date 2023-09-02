@@ -72,9 +72,9 @@
 }
 .catbtn:hover {
   transition: all 0.5s linear;
-  border: lightgray 0.5px solid;
+
   box-shadow: 0 3px 10px rgb(0, 0, 0, 0.1);
-  background: rgb(0, 0, 0, 0);
+  background: var(--primary-dark);
 }
 .jobs .card p {
   color: #787878;
@@ -100,5 +100,9 @@
   .jobs .card {
     max-width: 100%;
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end !important;
+    background: lime !important
   }
 }
