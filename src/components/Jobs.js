@@ -12,14 +12,28 @@ import './Jobs.css'
 import './Appmodal.css'
 import { createPortal } from "react-dom";
 import { Modal } from "./modalAmazon/Modal";
+// import { Modala } from "./modalaAmazon/Modala";
+import { Modala } from "./modalAmazon/Modala";
 
-
-const Jobs = () => {
+function Jobs() {
     const [modalOpen, setModalOpen] = useState(false);
-    const [message, setMessage] = useState("");
+    const [modalaOpen, setModalaOpen] = useState(false);
+
     const handleButtonClick = (value) => {
         setModalOpen(false);
     };
+    const handleButtonaClick = (value) => {
+        setModalaOpen(false);
+    };
+
+
+    // const handleShowButtonClick = (value) => {
+    //     setModalOpen(true);
+    // };
+    // const handleShowButtonaClick = (value) => {
+    //     setModalaOpen(true);
+    // };
+
 
     useEffect(() => {
         AOS.init();
@@ -30,12 +44,23 @@ const Jobs = () => {
                 createPortal(
                     <Modal
                         closeModal={handleButtonClick}
-                        onSubmit={handleButtonClick}
                         onCancel={handleButtonClick}
                     >
                     </Modal>,
                     document.body
                 )}
+
+            {modalaOpen &&
+                createPortal(
+                    <Modala
+                        closeModal={handleButtonaClick}
+                        onCancel={handleButtonaClick}
+                    >
+                    </Modala>,
+                    document.body
+                )}
+
+
             <div className='container'>
                 <h2 id="whitereal" >Realisations</h2>
                 <span className='line'></span>
@@ -79,7 +104,7 @@ const Jobs = () => {
                             <img className=" hover-element cardfill" id="larapost" src={posts} alt='reduxL' />
                         </div>
                         <div className='absol'>
-                            <button className="catbtn btn btn-open" onClick={() => setModalOpen(true)}>
+                            <button className="catbtn btn btn-open" onClick={() => setModalaOpen(true)}>
                                 More info
                             </button>
                         </div>
