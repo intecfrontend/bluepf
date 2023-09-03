@@ -2,17 +2,13 @@ import React, { useState } from 'react'
 import './Footer.css'
 import { Link } from 'react-scroll'
 import { useTranslation } from 'react-i18next';
-
-
 const Footer = () => {
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
-    const { t } = useTranslation(); 
+    const { t } = useTranslation();
     const closeMenu = () => setClick(false)
-
     return (
         <div className='footer'>
-            
             <div className='container'>
                 <ul>
                     <li className='nav-item'>
@@ -34,10 +30,10 @@ const Footer = () => {
                 </ul>
                 <div className='bottom'>
                     <span className='line'></span>
-                    <p>Soldatenstraat 63, 1082 Brussel (Sint Agatha Berchem)</p>
+                    <p>{t('adresstr')}, 1082 {t('adresci')}</p>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

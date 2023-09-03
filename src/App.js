@@ -25,10 +25,38 @@ const translationsEn = {
   testp1: "Benedikt worked under my supervision as an Instructor and later as Head Instructor. He is a highly passionate and committed developer. Not only was his technical guidance for students and instructors exceptional, but his support for Intec itself was also of a very high standard. Due to the discontinuation of some programs, Benedikt will be leaving our company on August 21, 2023 after having worked with us for 4 years. ",
   testp2: "I can wholeheartedly recommend him to any future employer.",
   testl1: "Director of 'Intec Brussel'",
-  down: "Download CV",
-  test: "Testimonials",
-  about: "About",
-  code: "My code",
+
+
+  testp21: "A developer I will never forget.", testp22: "He made complex React code understandable to me.", testp23: "Thanks to his non stop support. Kind and professional. Anytime I needed it. I became a web developer in only 4 months. A lot faster than I thought in my wildest imagination.", testp24: "A big thank you to you, my friend!", testp25: "Web developer at 'Jaimy (Belfius)'  ",
+
+  testp31: "A developer I will never forget.",
+  testp32: "He made complex React code understandable to me.",
+  testp33: "Thanks to his non stop support. Kind and professional. Anytime I needed it. I became a web developer in only 4 months. A lot faster than I thought in my wildest imagination.",
+  testp34: "A big thank you to you, my friend!",
+  testp35: "Web developer at Jamy (Belfius)",
+
+  testp41: "I owe my developers career to Benedikt!",
+  testp42: "If it weren't for his passion for coding, I wouldn't be a developer. ",
+  testp43: " He supported me through some challenging times and gave me the confidence I needed during a critical moment in my life!",
+  testp44: " Javascript Developer at WorldLine",
+  testp45: "Youtube Code instructor, KodMan",
+
+  adresstr: "Soldatenstraat 63",
+  adresci: "Brussel (Sint Agatha Berchem)",
+
+  find: "Find me on Linkedin",
+
+  jobs1: "About This Site",
+  jobs2: "Please, click on the GitHub Logo (cat) ", jobs22: "to see the code of this site.",
+  jobs3: "Special attention has been given to have a reusable code by exploiting the use of components and OOP to the fullest.",
+  jobs4: "I hope you saw the animations and Internationalisation as well as the Intersection Observer. Fully responsive to suit all screen sizes.",
+  jobs5: "In all modesty, I believe all modern sites should have these assets.",
+  jobs6: "More info",
+
+
+
+
+
 
 
 };
@@ -48,7 +76,29 @@ const translationsDu = {
   testp2: "Ik kan hem van harte aanbevelen aan toekomstige werkgevers.",
   testl1: "Directeur van 'Intec Brussel'",
 
-  testp21: "A developer I will never forget.", testp22: "He made complex React code understandable to me.", testp23: "Thanks to his non stop support. Kind and professional. Anytime I needed it. I became a web developer in only 4 months. A lot faster than I thought in my wildest imagination.", testp24: "A big thank you to you, my friend!", testp25: "Web developer at 'Jaimy (Belfius)'  ",
+  testp31: "Een ontwikkelaar die ik nooit zal vergeten.",
+  testp32: "Hij maakte complexe React-code begrijpelijk voor mij.",
+  testp33: "Dankzij zijn constante ondersteuning. Vriendelijk en professioneel. Telkens wanneer ik het nodig had. Ben ik in slechts 4 maanden een webontwikkelaar geworden. Veel sneller dan ik me had voorgesteld in mijn wildste verbeelding.",
+  testp34: "Een grote dank aan jou, mijn vriend!",
+  testp35: "Webontwikkelaar bij Jamy (Belfius)",
+
+  testp41: "Ik dank mijn carrière als ontwikkelaar aan Benedikt!",
+  testp42: "Als het niet was geweest voor zijn passie voor code, zou ik geen ontwikkelaar zijn.",
+  testp43: "Hij heeft me ondersteund tijdens moeilijke momenten en heeft me het vertrouwen gegeven dat ik nodig had tijdens een kritiek moment in mijn leven.",
+  testp44: "Javascript Ontwikkelaar bij WorldLine",
+  testp45: "Youtube Code-instructeur, KodMan",
+
+  adresstr: "Soldatenstraat 63",
+  adresci: "Brussel (Sint Agatha Berchem)",
+
+  find: "Linkedin-Profiel",
+
+  jobs1: "Over deze site",
+  jobs2: "Klik op het GitHub-logo (kat) ", jobs22: "om de code van deze site te bekijken.",
+  jobs3: "Er is speciale aandacht besteed aan het hebben van herbruikbare code door optimaal gebruik te maken van componenten en OOP.",
+  jobs4: "Ik hoop dat je de animaties, 'Internationalisatie' en de 'Intersection Observer' hebt gezien. Volledig responsief om op alle schermformaten te passen.",
+  jobs5: "",
+  jobs6: "Meer informatie"
 };
 const translationsFr = {
   call_me: 'Appelle-moi',
@@ -63,9 +113,34 @@ const translationsFr = {
   aboutp3: "Avant, j'ai travaillé en tant que graphiste pendant plus de 25 ans, apportant un aspect multilingue, avec une maîtrise de la parole et de l'écriture dans quatre langues (NL-FR-EN-ES). Comme j'ai trouvé plus de joie dans la programmation, j'ai changé de carrière en 2017 pour devenir un développeur full stack.",
   aboutb: "Télécharger: lettre de recommendation employeur précédent.",
 
-  testp1: "Benedikt a travaillé sous ma supervision en tant qu'instructeur, puis en tant que chef instructeur. C'est un développeur très passionné et engagé. Non seulement sa guidance technique pour les étudiants et les instructeurs était exceptionnelle, mais son soutien à Intec lui-même était également de très haute qualité. En raison de l'arrêt de certains programmes, Benedikt quittera notre entreprise le 21 août 2023, après avoir travaillé avec nous pendant 4 ans.",
+  testp1: "Benedikt a travaillé sous ma supervision en tant qu'instructeur, puis en tant que chef instructeur. C'est un développeur très passionné et engagé. Non seulement sa guidance technique pour les étudiants et les instructeurs était exceptionnelle, mais son soutien à Intec lui-même était également de très haute qualité. En raison de l'arrêt de certains programmes, Benedikt quittera notre entreprise le 21 août 2023, après avoir travaillé avec nous pendant 4 ans. ",
   testp2: "Je peux le recommander sincèrement à tout futur employeur.",
   testl1: "Directeur 'Intec Brussel'",
+
+
+  testp31: "Un développeur que je n'oublierai jamais.",
+  testp32: "Il a rendu le code React complexe compréhensible pour moi.",
+  testp33: "Grâce à son soutien constant. Aimable et professionnel. Chaque fois que j'en avais besoin. Je suis devenu développeur web en seulement 4 mois. Beaucoup plus rapidement que je ne l'aurais imaginé dans mes rêves les plus fous.",
+  testp34: "Un grand merci à toi, mon ami !",
+  testp35: "Développeur web chez Jamy (Belfius)",
+
+  testp41: "Je dois ma carrière de développeur à Benedikt !",
+  testp42: "Si ce n'était pas pour sa passion pour la programmation, je ne serais pas développeur.",
+  testp43: "Il m'a soutenu à travers des moments difficiles et m'a donné la confiance dont j'avais besoin lors d'un moment critique de ma vie !",
+  testp44: "Développeur Javascript chez WorldLine",
+  testp45: "Instructeur de Code sur Youtube, KodMan",
+
+  adresstr: "63 Rue des Soldats",
+  adresci: "Bruxelles (Berchem Sainte Agathe)",
+
+  find: "Profile Linkedin",
+
+  jobs1: "À propos de ce site",
+  jobs2: "Veuillez cliquer sur le logo GitHub(chat) ", jobs22: "pour voir le code de ce site.",
+  jobs3: "Une attention particulière a été accordée à la création d'un code réutilisable en exploitant au maximum l'utilisation de composants et de la programmation orientée objet(OOP).",
+  jobs4: "J'espère que vous avez vu les animations et l'internationalisation ainsi que 'l'Intersection Observer' .Entièrement responsive pour s'adapter à toutes les tailles d'écran.",
+  jobs5: "",
+  jobs6: "Plus d'informations"
 
 };
 

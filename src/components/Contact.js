@@ -6,12 +6,12 @@ import map from './images/map.png'
 import './Contact.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
-
+import { useTranslation } from 'react-i18next';
 const Contact = () => {
     useEffect(() => {
         AOS.init();
-    }, [])
+    }, []);
+    const { t } = useTranslation();
     return (
         <div className='Contact' id='Contact'>
             <div className='container '>
@@ -36,7 +36,7 @@ const Contact = () => {
                         </div>
 
                     </div>
-                    <button className='button'> <FaLinkedin /> <a href="https://www.linkedin.com/in/benedikt-lantsoght-02481319/" target="_blank" rel="noopener noreferrer"> Find me on Linkedin </a></button>
+                    <button className='button'> <FaLinkedin /> <a href="https://www.linkedin.com/in/benedikt-lantsoght-02481319/" target="_blank" rel="noopener noreferrer"> {t('find')} </a></button>
                 </div>
 
                 <div className='data-aos="fade-down" col-2 moveup'>

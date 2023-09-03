@@ -64,7 +64,7 @@ const Navbar = () => {
                         <Link to="Contact" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Contact</Link>                    </li>
                 </ul>
             </nav>
-        </div>
+        </div >
     )
 }
 

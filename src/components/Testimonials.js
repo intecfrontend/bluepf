@@ -29,22 +29,18 @@ const Testimonials = () => {
                     </div>
                     <div className='card'>
                         <img src={user2} alt='user1' />
-                        <p>A developer I will never forget. <br /><br />He made complex React code understandable to me. <br /><br />Thanks to his non stop support. Kind and professional. Anytime I needed it. I became a web developer in only 4 months. <br />A lot faster than I thought in my wildest imagination.<br /><br />A big thank you to you, my friend!</p>
+                        <p>{t('testp31')} <br /><br />
+                            <strong>{t('testp32')} </strong>
+                            <br /><br />{t('testp33')} <br /><br />{t('testp34')} </p>
                         <p><span >Tiago Ferreira</span></p>
-                        <p>Web developer at Jamy (Belfius)
-                        </p>
+                        <p>{t('testp35')}</p>
                     </div>
                     <div className='card'>
                         <img src={user3} alt='user1' />
-                        <p>I owe my developers career to Benedikt!<br /> <br /> If it weren't for his passion for coding, I wouldn't be a developer. <br /> <br /> He supported me through some challenging times and gave me the confidence I needed during a critical moment in my life!
-
-
-
-
-
+                        <p>{t('testp41')}<br /> <br /> <strong>{t('testp42')} </strong><br /> <br /> {t('testp43')}
                         </p>
                         <p><span >Ufuk Uysal</span></p>
-                        <p>Javascript Developer @ WorldLine <br /> Youtube Code instructor, KodMan</p>
+                        <p>{t('testp44')}<br /> {t('testp45')}</p>
                     </div>
                 </div>
             </div>

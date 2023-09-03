@@ -12,13 +12,13 @@ import './Jobs.css'
 import './Appmodal.css'
 import { createPortal } from "react-dom";
 import { Modal } from "./modalAmazon/Modal";
-// import { Modala } from "./modalaAmazon/Modala";
+import { useTranslation } from 'react-i18next';
 import { Modala } from "./modalAmazon/Modala";
 
 function Jobs() {
     const [modalOpen, setModalOpen] = useState(false);
     const [modalaOpen, setModalaOpen] = useState(false);
-
+    const { t } = useTranslation();
     const handleButtonClick = (value) => {
         setModalOpen(false);
     };
@@ -33,7 +33,8 @@ function Jobs() {
     // };
     useEffect(() => {
         AOS.init();
-    }, [])
+    }, []);
+
     return (
         <div className='jobs' id='jobs'>
             {modalOpen &&
@@ -58,7 +59,7 @@ function Jobs() {
 
 
             <div className='container'>
-                <h2 id="whitereal" >Realisations</h2>
+                <h2 id="whitereal" >{t('code')}</h2>
                 <span className='line'></span>
                 <div className='content' data-aos="fade-down">
                     <div className='card relat'>
@@ -67,16 +68,16 @@ function Jobs() {
                         </a>
 
                         <p>
-                            <h1 className="pushmedown">About This Site</h1>
-                            <span >Please, click on the GitHub Logo (cat)<br />
-                                <a target="_blank" className="cattext" href="https://github.com/intecfrontend/bluepf"> to see the code of this site. </a>
+                            <h1 className="pushmedown">{t('jobs1')}</h1>
+                            <span >{t('jobs2')}<br />
+                                <a target="_blank" className="cattext" href="https://github.com/intecfrontend/bluepf"> {t('jobs22')} </a>
                             </span>
 
 
-                            <p>Special attention has been given to have a reusable code by exploiting the use of components and OOP to the fullest.<br /><br />I hope you saw the animations and Internationalisation as well as the Intersection Observer. Fully responsive to suit all screen sizes.<br /> <br />In all modesty, I believe all modern sites should have these assets.
+                            <p>{t('jobs3')}<br /><br />{t('jobs4')}<br /> <br />{t('jobs5')}
                             </p> </p>
                         <span className="absol"  >
-                            <a target="_blank" className="catref" href="https://github.com/intecfrontend/bluepf">  <button className="catbtn mobilebtn  btn btn-open"> More info </button> </a>
+                            <a target="_blank" className="catref" href="https://github.com/intecfrontend/bluepf">  <button className="catbtn mobilebtn  btn btn-open"> {t('jobs6')} </button> </a>
                         </span>
                     </div>
 
@@ -89,7 +90,7 @@ function Jobs() {
                         </div>
                         <span className='absol'>
                             <button className="catbtn  mobilebtn btn btn-open" onClick={() => setModalOpen(true)}>
-                                More info
+                                {t('jobs6')}
                             </button>
                         </span>
                     </div>
@@ -100,7 +101,7 @@ function Jobs() {
                         </div>
                         <div className='absol'>
                             <button className="catbtn mobilebtn btn btn-open" onClick={() => setModalaOpen(true)}>
-                                More info
+                                {t('jobs6')}
                             </button>
                         </div>
                     </div>
