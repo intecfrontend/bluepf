@@ -1,17 +1,18 @@
-import React from 'react'
+import { initReactI18next, useTranslation } from 'react-i18next';
 import './Hero.css'
 import SimpleSlider from "./carousel";
 
 
-const Hero = () => {
+const Hero = () => {const { t } = useTranslation();
+
     return (
         <div className='hero' id='hero'>
             <div className='content'>
-                <p>Call me</p>
+                <p>{t('call_me')}</p>
                 <p>0499 388 227</p>
-                <p>Web Development</p>
+                <p>{t('webd')}</p>
                 <a href='./CV.BenLan3L.pdf' download>
-                    <button className='button'>Download CV</button>
+                    <button className='button'>{t('down')}</button>
                 </a>
 
             </div>

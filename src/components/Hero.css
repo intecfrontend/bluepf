@@ -97,7 +97,9 @@
   }
   .cardfill {
     height: auto;
-    width: 60%;
+    width: 100%;
+    min-width: 400px;
+    z-index: 1;
   }
   .modal {
     height: 80vh !important;
