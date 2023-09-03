@@ -17,7 +17,6 @@
   width: 70vw;
   height: 70vh;
 }
-
 .btn-submit {
   background-color: #42a942;
 }
@@ -46,4 +45,17 @@
 .modal-footer {
   display: flex;
   justify-content: space-evenly;
+}
+
+
+@media screen and (max-width: 940px) {
+.cardfill
+{
+  width: 100%;
+}
+  .modal {
+    width: 90vw;
+    height: auto;
+  }
+
 }

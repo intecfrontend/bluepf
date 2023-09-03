@@ -71,34 +71,35 @@ function Jobs() {
                             <span >Please, click on the GitHub Logo (cat)<br />
                                 <a target="_blank" className="cattext" href="https://github.com/intecfrontend/bluepf"> to see the code of this site. </a>
                             </span>
-                        </p>
 
-                        <p>Special attention has been given to have a reusable code by exploiting the use of components and OOP to the fullest.<br /><br />I hope you saw the animations and Internationalisation as well as the Intersection Observer. Fully responsive to suit all screen sizes.<br /> <br />In all modesty, I believe all modern sites should have these assets.
-                        </p>
+
+                            <p>Special attention has been given to have a reusable code by exploiting the use of components and OOP to the fullest.<br /><br />I hope you saw the animations and Internationalisation as well as the Intersection Observer. Fully responsive to suit all screen sizes.<br /> <br />In all modesty, I believe all modern sites should have these assets.
+                            </p> </p>
                         <span className="absol"  >
-                            <a target="_blank" className="catref" href="https://github.com/intecfrontend/bluepf">  <button className="catbtn btn btn-open"> More info </button> </a>
+                            <a target="_blank" className="catref" href="https://github.com/intecfrontend/bluepf">  <button className="catbtn mobilebtn  btn btn-open"> More info </button> </a>
                         </span>
                     </div>
 
                     <div className='card relat'>
-                        <img className="cardjob cursor" src={reactL} alt='reactL' onClick={() => setModalaOpen(true)} />
-                        <img className="cardjob cursor" src={reduxL} alt='reduxL' onClick={() => setModalaOpen(true)} />
+                        <div className="logocontainer">
+                            <img className="cardjob cursor" src={reactL} alt='reactL' onClick={() => setModalOpen(true)} />
+                            <img className="cardjob cursor" src={reduxL} alt='reduxL' onClick={() => setModalOpen(true)} /></div>
                         <div className="pushmedown">
                             <img className="hover-element cardfill" id="amazonlogin" src={amazonlogin} alt='reduxL' />
                         </div>
                         <span className='absol'>
-                            <button className="catbtn btn btn-open" onClick={() => setModalOpen(true)}>
+                            <button className="catbtn  mobilebtn btn btn-open" onClick={() => setModalOpen(true)}>
                                 More info
                             </button>
                         </span>
                     </div>
                     <div className='card relat'>
-                        <img className="cardjob cursor" src={laraL} alt='laraL' onClick={() => setModalaOpen(true)}/>
+                        <img className="cardjob cursor" src={laraL} alt='laraL' onClick={() => setModalaOpen(true)} />
                         <div className="pushmedown">
                             <img className="cursor hover-element cardfill" id="larapost" src={posts} alt='reduxL' />
                         </div>
                         <div className='absol'>
-                            <button className="catbtn btn btn-open" onClick={() => setModalaOpen(true)}>
+                            <button className="catbtn mobilebtn btn btn-open" onClick={() => setModalaOpen(true)}>
                                 More info
                             </button>
                         </div>

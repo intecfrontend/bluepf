@@ -39,7 +39,7 @@ const Contact = () => {
                     <button className='button'> <FaLinkedin /> <a href="https://www.linkedin.com/in/benedikt-lantsoght-02481319/" target="_blank" rel="noopener noreferrer"> Find me on Linkedin </a></button>
                 </div>
 
-                <div className='data-aos="fade-down" col-2'>
+                <div className='data-aos="fade-down" col-2 moveup'>
                     <a href="https://www.google.com/maps/place/Rue+des+Soldats+63,+1082+Berchem-Sainte-Agathe/@50.861765,4.2963397,17z/data=!3m1!4b1!4m6!3m5!1s0x47c3c14514b03857:0xf10ce296a7aac747!8m2!3d50.861765!4d4.2963397!16s%2Fg%2F11hbtgq6_r?entry=ttu" target="_blank" rel="noopener noreferrer">
                         <img className="map" src={map} alt="map" />
                     </a>
