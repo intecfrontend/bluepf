@@ -3,9 +3,11 @@ import amazoncheckout from '../myjobs/amazonpf/amazoncheckout.png'
 import amazoncode1 from '../myjobs/amazonpf/amazonreducer.png'
 import amazoncode2 from '../myjobs/amazonpf/reddispatch.png'
 import posts from '../myjobs/laravelpf/Posts.png'
-import "./Modal.css";
+import "./Modal.css"; import { useTranslation } from 'react-i18next';
+
 
 export const Modal = ({ onSubmit, onCancel, closeModal, children }) => {
+  const { t } = useTranslation();
   return (
     <div className='container'>
 
@@ -25,9 +27,9 @@ export const Modal = ({ onSubmit, onCancel, closeModal, children }) => {
             <p className="close">&times;</p>
           </div>
           <div >{children}
-            <h1 className="modaltitle">Amazon cloning excercise</h1>
+            <h1 className="modaltitle">{t('Modal1')}</h1>
             <br />
-            <p>One of the many excercises I demanded but this one is connected to a <strong>Firebase database </strong>to log in. It also uses <strong>Redux</strong> to provide better accessability. </p>
+            <p>{t('Modal2')} <strong>'Firebase database' </strong>{t('Modal4')} <strong>'Redux'</strong> {t('Modal6')}</p>
             <div className='contentmodal ' data-aos="fade-down">
               <div className='cardmodal hover-element'>
                 <img className="cardfill" id="amazonloginmodal1" src={amazoncheckout} alt='amazoncheckout' />

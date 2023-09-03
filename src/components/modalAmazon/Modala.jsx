@@ -4,8 +4,11 @@ import laralogin from '../myjobs/laravelpf/laravellogin.png'
 import larafollow from '../myjobs/laravelpf/followsDB.png'
 import posts from '../myjobs/laravelpf/postDB.png'
 import "./Modal.css";
+import { useTranslation } from 'react-i18next';
+
 
 export const Modala = ({ onCancel, closeModal, children }) => {
+  const { t } = useTranslation();
   return (
     <div className='container'>
 
@@ -25,9 +28,9 @@ export const Modala = ({ onCancel, closeModal, children }) => {
             <p className="close">&times;</p>
           </div>
           <div >{children}
-            <h1 className="modaltitle">My Laravel Learning</h1>
+            <h1 className="modaltitle">{t('Modala1')}</h1>
             <br />
-            <p>Being a web developer, I realise, it is <strong>a life of learning</strong>. Squash and coding, those are my favorite pasttime.</p>
+            <p>{t('Modala2')}<strong>{t('Modala3')}</strong>{t('Modala4')}</p>
             <div className='contentmodal ' data-aos="fade-down">
               <div className='cardmodal hover-element'>
                 <img className="cardfill" id="amazonloginmodal1" src={laralogin} alt='amazoncheckout' />

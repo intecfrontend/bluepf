@@ -30,14 +30,14 @@ const Navbar = () => {
                 <Link to="hero" spy={true} smooth={true} offset={-160} duration={500} onClick={closeMenu}>                    <img src={logo} alt='logo' />
                 </Link>
 
-                <select
+                <select 
                     value={localStorage.getItem('selectedLanguage')}
                     onChange={onChange}
                     id="languageChanger"
                 >
-                    <option value="en">English</option>
-                    <option value="du">Dutch</option>
-                    <option value="fr">French</option>
+                    <option classname="selector" value="en">🇬🇧 English</option>
+                    <option value="du">🇳🇱 Dutch</option>
+                    <option value="fr">🇫🇷 French</option>
                 </select>
 
 

@@ -53,12 +53,16 @@ const translationsEn = {
   jobs5: "In all modesty, I believe all modern sites should have these assets.",
   jobs6: "More info",
 
+  Modal1: "Amazon cloning excercise",
+  Modal2: "One of the many excercises I demanded but this one is connected to a ",
+  // Modal3: "'Firebase database'",
+  Modal4: "to log in. It also uses ",
+  Modal6: " to provide better accessability.",
 
-
-
-
-
-
+  Modala1: "My Laravel Learning",
+  Modala2: "Being a web developer, I realise, it is ",
+  Modala3: "a life of learning.",
+  Modala4: " Squash and coding, those are my favorite pasttime.",
 };
 const translationsDu = {
   call_me: 'Bel me!',
@@ -98,7 +102,18 @@ const translationsDu = {
   jobs3: "Er is speciale aandacht besteed aan het hebben van herbruikbare code door optimaal gebruik te maken van componenten en OOP.",
   jobs4: "Ik hoop dat je de animaties, 'Internationalisatie' en de 'Intersection Observer' hebt gezien. Volledig responsief om op alle schermformaten te passen.",
   jobs5: "",
-  jobs6: "Meer informatie"
+  jobs6: "Meer informatie",
+
+  Modal1: "Amazon kloon oefening",
+  Modal2: "Een van de vele oefeningen die ik heb gedaan, maar deze is gekoppeld aan",
+  Modal4: "om in te loggen. Het maakt ook gebruik van ",
+  Modal6: " voor een betere toegankelijkheid.",
+
+  Modala1: "Mijn Laravel-leren",
+  Modala2: "Als webontwikkelaar realiseer ik me dat het ",
+  Modala3: "een leven van leren is. ",
+  Modala4: "Squashen en coderen, dat zijn mijn favoriete bezigheden.",
+
 };
 const translationsFr = {
   call_me: 'Appelle-moi',
@@ -140,8 +155,17 @@ const translationsFr = {
   jobs3: "Une attention particulière a été accordée à la création d'un code réutilisable en exploitant au maximum l'utilisation de composants et de la programmation orientée objet(OOP).",
   jobs4: "J'espère que vous avez vu les animations et l'internationalisation ainsi que 'l'Intersection Observer' .Entièrement responsive pour s'adapter à toutes les tailles d'écran.",
   jobs5: "",
-  jobs6: "Plus d'informations"
+  jobs6: "Plus d'informations",
 
+  Modal1: "Exercice de clonage d'Amazon",
+  Modal2: "L'un des nombreux exercices que j'ai demandés, mais celui-ci est lié à",
+  Modal4: "pour se connecter. Il utilise également ",
+  Modal6: "pour une meilleure accessibilité.",
+
+  Modala1: "Mon apprentissage de Laravel",
+  Modala2: "En tant que développeur web, je réalise que c'est ",
+  Modala3: "une vie d'apprentissage. ",
+  Modala4: "Le squash et la programmation, ce sont mes passe-temps préférés.",
 };
 
 // Initialize i18n with the translations
