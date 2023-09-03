@@ -25,16 +25,12 @@ function Jobs() {
     const handleButtonaClick = (value) => {
         setModalaOpen(false);
     };
-
-
     // const handleShowButtonClick = (value) => {
     //     setModalOpen(true);
     // };
     // const handleShowButtonaClick = (value) => {
     //     setModalaOpen(true);
     // };
-
-
     useEffect(() => {
         AOS.init();
     }, [])
@@ -85,8 +81,8 @@ function Jobs() {
                     </div>
 
                     <div className='card relat'>
-                        <img className="cardjob" src={reactL} alt='reactL' />
-                        <img className="cardjob" src={reduxL} alt='reduxL' />
+                        <img className="cardjob cursor" src={reactL} alt='reactL' onClick={() => setModalaOpen(true)} />
+                        <img className="cardjob cursor" src={reduxL} alt='reduxL' onClick={() => setModalaOpen(true)} />
                         <div className="pushmedown">
                             <img className="hover-element cardfill" id="amazonlogin" src={amazonlogin} alt='reduxL' />
                         </div>
@@ -97,11 +93,9 @@ function Jobs() {
                         </span>
                     </div>
                     <div className='card relat'>
-
-                        <img className="cardjob" src={laraL} alt='laraL' />
-
+                        <img className="cardjob cursor" src={laraL} alt='laraL' onClick={() => setModalaOpen(true)}/>
                         <div className="pushmedown">
-                            <img className=" hover-element cardfill" id="larapost" src={posts} alt='reduxL' />
+                            <img className="cursor hover-element cardfill" id="larapost" src={posts} alt='reduxL' />
                         </div>
                         <div className='absol'>
                             <button className="catbtn btn btn-open" onClick={() => setModalaOpen(true)}>

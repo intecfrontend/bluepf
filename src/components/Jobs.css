@@ -66,7 +66,7 @@
   box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
   padding: 1rem;
   background: white;
-  height: 70vh;
+  height: 630px
 }
 
 #whitereal {
@@ -105,13 +105,13 @@
 .catbtn {
   width: 100%;
   border-radius: 10px;
+
   border: lightgray 0.5px solid;
   box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
   background: rgb(0, 0, 0, 0.1);
 }
 .catbtn:hover {
   transition: all 0.5s ease;
-
   box-shadow: 0 3px 10px rgb(0, 0, 0, 0.1);
   background: var(--primary-dark);
 }

@@ -20,6 +20,8 @@
 
 .btn-open {
   background-color: #1d4ed8;
+  font-size: 0.8rem;
+  font-weight: 700;
 }
 .modaltitle {
   margin-top: -20px;
