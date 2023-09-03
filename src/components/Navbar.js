@@ -8,14 +8,11 @@ import './Navbar.css'
 
 const Navbar = () => {
     const { t } = useTranslation();
-
-
     const onChanged = (event) => {
         const selectedLanguage = event.target.value;
         i18n.changeLanguage(selectedLanguage);
         localStorage.setItem('selectedLanguage', selectedLanguage);
     }
-
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
 
@@ -57,10 +54,10 @@ const Navbar = () => {
                         <Link to="about" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>{t('about')}</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="jobs" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Code</Link>
+                        <Link to="jobs" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>{t('code')}</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="testimonials" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Testimonials</Link>
+                        <Link to="testimonials" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>{t('test')}</Link>
                     </li>
 
                     <li className='nav-item'>

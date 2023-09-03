@@ -1,4 +1,4 @@
-import { initReactI18next, useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import './Hero.css'
 import SimpleSlider from "./carousel";
 

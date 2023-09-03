@@ -5,22 +5,27 @@ import user3 from './images/user3.jpeg'
 import './Testimonials.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { useTranslation } from 'react-i18next';
+
 
 const Testimonials = () => {
+    const { t } = useTranslation();
+
     useEffect(() => {
         AOS.init();
     }, [])
     return (
         <div className='testimonials' id='testimonials'>
             <div className='container'>
-                <h2>Testimonials</h2>
+                <h2>{t('test')}</h2>
                 <span className='line'></span>
-                <div className='content'data-aos="fade-down">
+                <div className='content' data-aos="fade-down">
                     <div className='card'>
                         <img src={user1} alt='user1' />
-                        <p>Benedikt worked under my supervision as an Instructor and later as Head Instructor. He is a highly passionate and committed developer. Not only was his technical guidance for students and instructors exceptional, but his support for Intec itself was also of a very high standard. Due to the discontinuation of some programs, Benedikt will be leaving our company on August 21, 2023 after having worked with us for 4 years. <br />I can wholeheartedly recommend him to any future employer.</p>
-                        <p><span >Ruud Marks, tel.02 411 29 07 </span></p>
-                        <p>Director of "Intec Brussel"</p>
+                        <p>{t('testp1')}<strong>{t('testp2')}</strong></p>
+
+                        <p><span >Ruud Marks, t.02 411 29 07 </span></p>
+                        <p>{t('testl1')}</p>
                     </div>
                     <div className='card'>
                         <img src={user2} alt='user1' />
