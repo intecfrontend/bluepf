@@ -35,9 +35,9 @@ const Navbar = () => {
                     onChange={onChange}
                     id="languageChanger"
                 >
-                    <option classname="selector" value="en">🇬🇧 English</option>
-                    <option value="du">🇳🇱 Dutch</option>
-                    <option value="fr">🇫🇷 French</option>
+                    <option classname="selector" value="en">🇬🇧 {t('english')}</option>
+                    <option value="du">🇳🇱 {t('dutch')}</option>
+                    <option value="fr">🇫🇷 {t('french')}</option>
                 </select>
 
 
