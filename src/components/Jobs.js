@@ -4,6 +4,11 @@ import reactL from './myjobs/amazonpf/react.png'
 import reduxL from './myjobs/amazonpf/redux.png'
 import amazonlogin from './myjobs/amazonpf/amazonlogin.png'
 import posts from './myjobs/laravelpf/Posts.png'
+import movies from './myjobs/movies/movies.jpg'
+import apiL from './myjobs/movies/api.jpg'
+import inprog from './myjobs/inprogress/inprog.jpg'
+import blog from './myjobs/blog/myblog.jpg'
+import oopL from './myjobs/blog/oop.jpg'
 import laraL from './myjobs/laravelpf/laravellogo.png'
 import './Testimonials.css'
 import AOS from 'aos';
@@ -104,6 +109,36 @@ function Jobs() {
                                 {t('jobs6')}
                             </button>
                         </div>
+                    </div>
+                    <div className='card relat'>
+                        <img className="cardjob cursor" src={oopL} alt='laraL' onClick={() => setModalaOpen(true)} />
+                        <div className="">
+                            <img className="cursor hover-element cardfill" id="larapost" src={blog} alt='reduxL' />
+                        </div>
+                        <div className='absol'>
+                            <button className="catbtn mobilebtn btn btn-open" onClick={() => setModalaOpen(true)}>
+                                {t('jobs6')}
+                            </button>
+                        </div>
+                    </div>
+                    <div className='card relat'>
+                        <img className="cardjob cursor" src={apiL} alt='apil' onClick={() => setModalaOpen(true)} />
+                        <div className="pushmedown">
+                            <a target='blank' href="https://64f9e3ceece2470c1ece7273--stunning-macaron-98c52b.netlify.app/">
+                                <img className="cursor hover-element cardfill" id="larapost" src={movies} alt='movies' /></a>
+
+                        </div>
+                        <div className='absol'>
+                            <button className="catbtn mobilebtn btn btn-open" onClick={() => setModalaOpen(true)}>
+                                {t('jobs6')}
+                            </button>
+                        </div>
+                    </div>
+                    <div className='card relat'>
+                        <div className="middleme">
+                            <img id="inprogress" src={inprog} alt='reduxL' />
+                        </div>
+
                     </div>
                 </div>
             </div>
