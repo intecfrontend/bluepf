@@ -52,7 +52,7 @@
   display: none;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1240px) {
   .header {
     max-width: 100%;
     background-color: rgba(0, 0, 0, 0.9);

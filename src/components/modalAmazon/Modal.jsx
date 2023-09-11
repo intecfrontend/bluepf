@@ -1,8 +1,7 @@
 import React from "react";
-import amazoncheckout from '../myjobs/amazonpf/amazoncheckout.png'
-import amazoncode1 from '../myjobs/amazonpf/amazonreducer.png'
-import amazoncode2 from '../myjobs/amazonpf/reddispatch.png'
-import posts from '../myjobs/laravelpf/Posts.png'
+import amazoncheckout from '../myjobs/cards/amazonpf/amazoncheckout.png'
+import amazoncode1 from '../myjobs/cards/amazonpf/amazonreducer.png'
+import amazoncode2 from '../myjobs/cards/amazonpf/reddispatch.png'
 import "./Modal.css"; import { useTranslation } from 'react-i18next';
 
 

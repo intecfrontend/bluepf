@@ -1,8 +1,8 @@
 import React from "react";
-import amazoncheckout from '../myjobs/amazonpf/amazoncheckout.png'
-import laralogin from '../myjobs/laravelpf/laravellogin.png'
-import larafollow from '../myjobs/laravelpf/followsDB.png'
-import posts from '../myjobs/laravelpf/postDB.png'
+import amazoncheckout from '../myjobs/cards/amazonpf/amazoncheckout.png'
+import laralogin from '../myjobs/cards/laravelpf/laravellogin.png'
+import larafollow from '../myjobs/cards/laravelpf/followsDB.png'
+import posts from '../myjobs/cards/laravelpf/postDB.png'
 import "./Modal.css";
 import { useTranslation } from 'react-i18next';
 

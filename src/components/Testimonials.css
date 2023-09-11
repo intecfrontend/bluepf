@@ -52,7 +52,7 @@
   font-weight: 700;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1240px) {
   .testimonials .container {
     width: 100%;
   }

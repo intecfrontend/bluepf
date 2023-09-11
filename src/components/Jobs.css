@@ -128,7 +128,7 @@
 .pushmedown {
   margin-top: 4vh;
 }
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1240px) {
   .jobs .container {
     width: 100%;
   }
@@ -145,6 +145,8 @@
   }
   .logocontainer {
     display: flex;
+    min-width: 300px;
+    height: 50px;
   }
   .mobilebtn {
     display: none;
@@ -153,3 +155,8 @@
     margin-left: -50px;
   }
 }
+@media screen and (max-width: 1240px) {
+  .jobs .card {
+    height: 100%;
+    width: auto;
+  }}
