@@ -6,6 +6,7 @@ import CardTwo from './myjobs/cards/card2'
 import CardThree from './myjobs/cards/card3'
 import CardFour from './myjobs/cards/card4'
 import CardFive from './myjobs/cards/card5'
+import CardSix from './myjobs/cards/card6'
 
 import './Testimonials.css'
 import AOS from 'aos';
@@ -44,6 +45,7 @@ function Jobs() {
 
                     <CardFour />
                     <CardFive />
+                    <CardSix />
 
                     <div className='card relat'>
                         <div className="middleme">
