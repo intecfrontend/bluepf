@@ -9,6 +9,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import i18n from 'i18next';
 
+
 const translationsEn = {
   call_me: 'Call me',
   webd: "Web Development",
